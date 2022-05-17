@@ -7,7 +7,7 @@ public class Asteroid : MonoBehaviour
     public float speed;
     public GameObject rocket;
     private Rigidbody2D rb2d;
-    private bool play, hit;
+    public bool play = false;
     private CompositeCollider2D collider2d;
     // Start is called before the first frame update
     void Start()
@@ -19,14 +19,17 @@ public class Asteroid : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (!hit)
+        if (!play)
+        {
+            rb2d.velocity = new Vector2(0, 0);
+        }
+        if (play)
         {
             rb2d.velocity = new Vector2(speed, -3);
-        }
+        } 
     }
    void OnCollisionEnter2D(Collision2D other)
     {
         rocket = other.gameObject;
-        Debug.Log("Hit");
     }
 }
