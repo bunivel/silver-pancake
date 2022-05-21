@@ -769,7 +769,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+<<<<<<< Updated upstream
   rocket: {fileID: 0}
+=======
+  rocket: {fileID: 1668009302}
+>>>>>>> Stashed changes
   play: 1
 --- !u!1 &491224867
 GameObject:
