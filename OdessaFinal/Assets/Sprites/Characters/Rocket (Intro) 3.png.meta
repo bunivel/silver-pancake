@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 67464b1c5ca183c488ec10f3c7d16759
+guid: 1ed31bdeb726c1e4fb3107c67779e3d5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3906078681181444869
-    second: Cave Inside_0
+      213: 6287358213217474657
+    second: Rocket (Intro) 3_0
   - first:
-      213: 6972828262465511463
-    second: Cave Inside_1
+      213: 1620783329036147303
+    second: Rocket (Intro) 3_1
+  - first:
+      213: -5227362877556799205
+    second: Rocket (Intro) 3_2
+  - first:
+      213: -2324281685797622297
+    second: Rocket (Intro) 3_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -133,13 +139,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Cave Inside_0
+      name: Rocket (Intro) 3_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3500
-        width: 6000
-        height: 3500
+        y: 4880
+        width: 4880
+        height: 4880
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50bdb808ddd253630800000000000000
-      internalID: 3906078681181444869
+      spriteID: 168567aabfe214750800000000000000
+      internalID: 6287358213217474657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Cave Inside_1
+      name: Rocket (Intro) 3_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 6000
-        height: 3500
+        x: 4880
+        y: 4880
+        width: 4880
+        height: 4880
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,8 +174,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 720af007c5674c060800000000000000
-      internalID: 6972828262465511463
+      spriteID: 76a1319b9dd2e7610800000000000000
+      internalID: 1620783329036147303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket (Intro) 3_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4880
+        height: 4880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b19c92b982da477b0800000000000000
+      internalID: -5227362877556799205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket (Intro) 3_3
+      rect:
+        serializedVersion: 2
+        x: 4880
+        y: 0
+        width: 4880
+        height: 4880
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ed26101f1e7ebfd0800000000000000
+      internalID: -2324281685797622297
       vertices: []
       indices: 
       edges: []
