@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Crystal.unity
     guid: 17d022b4a31101649a4389dbad97a8ef
+  - enabled: 1
+    path: Assets/Scenes/L1.unity
+    guid: 3cc3fe1ae5b1e754da1c5d2917f6b814
   m_configObjects: {}

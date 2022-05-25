@@ -178,11 +178,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99460492}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.2, y: 0, z: 0}
+  m_LocalPosition: {x: -2.3, y: 0, z: 0}
   m_LocalScale: {x: 0.08555, y: 0.08555, z: 1}
   m_Children:
   - {fileID: 22262919}
-  - {fileID: 1257762882}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -216,7 +215,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.38578606, y: 0.56648874}
+  m_Offset: {x: 0.1656475, y: 0.56648874}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -227,7 +226,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.7715721, y: 9.407889}
+  m_Size: {x: 0.668705, y: 9.407889}
   m_EdgeRadius: 0
 --- !u!4 &863359921
 Transform:
@@ -237,7 +236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 863359919}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 23.280695, y: -0.6259191, z: -116.8023}
+  m_LocalPosition: {x: 11.8, y: -0.6259191, z: -116.8023}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -355,36 +354,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!1 &1257762881
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1257762882}
-  m_Layer: 0
-  m_Name: Inside Cave
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1257762882
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1257762881}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 400, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 99460493}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1456081529
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +676,7 @@ SpriteRenderer:
   m_SortingLayerID: -252927179
   m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6559907138477440221, guid: c19593b03a9bd3f4da8910df4f80dfed, type: 3}
+  m_Sprite: {fileID: -6559907138477440221, guid: b4662764e7af53d44900d49d8236025e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -814,11 +783,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5758254757846431211, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.93
+      value: -10.1
       objectReference: {fileID: 0}
     - target: {fileID: 5758254757846431211, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.95
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5758254757846431211, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -853,6 +822,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5758254757846431220, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7058334742123548245, guid: dab931e2770219f4bb701d17174949c6, type: 3}
+    - target: {fileID: 5758254757846431220, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
       propertyPath: m_SortingLayer
       value: 2
       objectReference: {fileID: 0}
@@ -860,6 +833,14 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -1187093895
       objectReference: {fileID: 0}
+    - target: {fileID: 5758254757846431220, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5758254757846431221, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 60a2c96902d7b66459e12d7858ad833c, type: 2}
     - target: {fileID: 5758254757846431222, guid: 75c50cab5a0ef5447802c0033b5c694f, type: 3}
       propertyPath: m_Name
       value: 'Odessa '
